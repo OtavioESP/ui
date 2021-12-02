@@ -1,0 +1,30 @@
+.body {
+    background-color: hsl(185, 93%, 83%);
+    width: 200px;
+    height: 100%;
+
+  }
+  
+.card-renderer {
+  padding: 20px;
+}
+
+
+
+.button {
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: thistle;
+  width: 200px;
+  height: 50px;
+}
+
+.textarea {
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: thistle;
+  width: 400px;
+  height: 100px;
+}
