@@ -42,7 +42,15 @@ export default function CardV2({ id, NomeUsuario, DataCriacao, Titulo, Texto, Cu
             {Curtidas}
           </div>
         ) : (
+          <div>
+            <button
+              className="like-button"
+              onClick={() => onLikeClick(id, Curtidas)}>
           <FontAwesomeIcon icon={faHeartRegular} />
+          </button>
+            <br />
+            {Curtidas}
+          </div>
         )}
         <div className="like-text">
           <b>{DataCriacao}</b>

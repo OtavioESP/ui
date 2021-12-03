@@ -20,11 +20,20 @@
   height: 50px;
 }
 
-.textarea {
+.texto {
   background-color: white;
   border-radius: 10px;
   border-width: 1px;
   border-color: thistle;
   width: 400px;
   height: 100px;
+}
+
+.titulo {
+  background-color: white;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: thistle;
+  width: 400px;
+  height: 30px;
 }

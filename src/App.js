@@ -1,16 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './Components/Header/Header';
 import Body from './Components/Body/Body';
+import Login from './Components/Login/Login';
+import { BrowserRouter as Router, Routes, Switch, Route } from 'react-router-dom';
 
 function App() {
+
   return (
-    <div className="App">
-      <Header />
-      <div>
-        <Body />
+    <Router>
+      <div className="App">
+      <Routes>
+      <Route path="/" element={<Login />} /> 
+
+     <Route path="/body" element={<Body />} /> 
+   
+   
+      </Routes>
       </div>
-    </div>
+    </Router>
   );
 }
 
